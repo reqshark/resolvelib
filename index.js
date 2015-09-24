@@ -7,7 +7,7 @@ var r = require('module')._resolveFilename;
 
 module.exports = function(libname, location) {
   Module._resolveFilename = function (f, p) {
-    f = f === libname ? require('path').normalize(location) : f;
+    f = f === libname ? location : f;
     return r.call(Module, f, p);
   }
 }
