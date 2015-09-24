@@ -1,6 +1,6 @@
 {
   "name":             "resolvelib",
-  "version":          "0.0.1",
+  "version":          "0.0.2",
   "description":      "clean up require calls",
   "repository":       {
     "type":             "git",
