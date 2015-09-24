@@ -1,0 +1,24 @@
+{
+  "name":             "resolvelib",
+  "version":          "0.0.1",
+  "description":      "clean up require calls",
+  "repository":       {
+    "type":             "git",
+    "url":              "git://github.com/reqshark/resolvelib"
+  },
+  "homepage":         "http://req.link",
+  "keywords":         [
+    "_resolveFilename",
+    "require",
+    "resolve algorithm",
+  ],
+  "author":           {
+    "name":             "Bent Cardan",
+    "email":            "bent@nothingsatisfies.com",
+    "url":              "http://req.link"
+  },
+  "contributors":     [
+    "Bent Cardan (https://github.com/reqshark)"
+  ],
+  "license": "MIT"
+}
